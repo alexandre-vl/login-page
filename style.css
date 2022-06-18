@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-color: #eceff4;
+    font-family: Rubik;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.box {
+    background-color: #3b4252;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px; 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+
+h1 {
+    text-align: left;
+    color: #d8dee9;
+    font-size: 22px;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+.inputs {
+  margin-top: 10px;
+}
+
+ .input-case {
+
+    padding-top: 20px;
+}
+
+.input-titles {
+    font-size: 20px;
+    color: #d8dee9;
+}
+
+.input {
+    color: #2e3440;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 5px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.input:focus {
+    
+    border: 2px solid #81a1c1;
+}
+
+.button-sign {
+    color: #2e3440;
+    margin-top: 3vh;
+    height: 40px;
+    width: 310px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #88c0d0;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+}
+
+.button-sign:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
